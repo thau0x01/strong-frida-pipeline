@@ -86,7 +86,7 @@ jobs:
       with:
         node-version: 16
 
-    - uses: de-vri-es/setup-git-credentials@v2
+    - uses: de-vri-es/setup-git-credentials@v2.0.10
       with:
         credentials: ${{secrets.GIT_CREDENTIALS}}
 
