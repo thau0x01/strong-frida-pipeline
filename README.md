@@ -2,7 +2,7 @@
 
 Follow [FRIDA](https://github.com/frida/frida) upstream to automatic patch and build an anti-detection version of frida-server for android.
 
-## Patchs
+## Patches
 
 [Git Patch Files](https://github.com/thau0x01/frida-patches/tree/master/thau0x01-patches)
 ```
