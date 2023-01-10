@@ -68,12 +68,11 @@ jobs:
       - uses: ncipollo/release-action@v1.12.0
         id: createRelease
         name: Create Runner Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag: "${{ needs.check_version.outputs.FRIDA_VERSION }}"
           name: "${{ needs.check_version.outputs.FRIDA_VERSION }}"
           prerelease: false
+          token: ${{secrets.GITHUB_TOKEN}}
 
   android_build:
     runs-on: ubuntu-20.04
