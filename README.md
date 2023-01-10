@@ -4,7 +4,7 @@ Follow [FRIDA](https://github.com/frida/frida) upstream to automatic patch and b
 
 ## Patchs
 
-[Git Patch Files](https://github.com/AAAA-Project/Patchs/tree/master/strongR-frida/frida-core)
+[Git Patch Files](https://github.com/thau0x01/frida-patches/tree/master/thau0x01-patches)
 ```
 tree thau0x01-patches
 ├── 0001-strongR-frida-string_frida_rpc.patch
