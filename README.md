@@ -1,29 +1,30 @@
-# strongR-frida-android
+# StrongR-Frida Build Pipeline for Android
 
 Follow [FRIDA](https://github.com/frida/frida) upstream to automatic patch and build an anti-detection version of frida-server for android.
-
-跟随 FRIDA 上游自动修补程序，并为 Android 构建反检测版本的 frida-server。
-
-**Hint: Don't fork this repository**
 
 ## Patchs
 
 [Git Patch Files](https://github.com/AAAA-Project/Patchs/tree/master/strongR-frida/frida-core)
-
-|module|name|
-|-|-|
-|frida-core|0001-string_frida_rpc.patch|
-|frida-core|0002-io_re_frida_server.patch|
-|frida-core|0003-pipe_linjector.patch|
-|frida-core|0004-io_frida_agent_so.patch|
-|frida-core|0005-symbol_frida_agent_main.patch|
-|frida-core|0006-thread_gum_js_loop.patch|
-|frida-core|0007-thread_gmain.patch|
-|frida-core|0008-protocol_unexpected_command.patch|
+```
+tree thau0x01-patches
+├── 0001-strongR-frida-string_frida_rpc.patch
+├── 0002-strongR-frida-io_re_frida_server.patch
+├── 0003-strongR-frida-pipe_linjector.patch
+├── 0004-strongR-frida-io_frida_agent_so.patch
+├── 0005-try-fix-patch.patch
+├── 0006-teste.patch
+├── 0007-strongR-frida-string_frida_rpc.patch
+├── 0008-strongR-frida-io_re_frida_server.patch
+├── 0009-strongR-frida-symbol_frida_agent_main.patch
+├── 0010-strongR-frida-thread_gum_js_loop.patch
+├── 0011-strongR-frida-thread_gmain.patch
+├── 0012-strongR-frida-protocol_unexpected_command.patch
+└── 0013-fix-identation.patch
+```
 
 ## Download
 
-[Latest Release](https://github.com/hzzheyang/strongR-frida-android/releases/latest)
+[Latest Release](https://github.com/thau0x01/strong-frida-pipeline/releases/latest)
 
 ## References
 
@@ -39,13 +40,4 @@ Follow [FRIDA](https://github.com/frida/frida) upstream to automatic patch and b
 - [@r0ysue](https://github.com/r0ysue)
 - [@hellodword](https://github.com/hellodword)
 - [@qtfreet00](https://github.com/qtfreet00)
-
-## Discussion
-
-<img src="img/1.png" width = "200" height = "260" alt="" align=center />
-
-## Advert
-
-<img src="img/2.png" width = "180" height = "240" alt="" align=center />
-
-<img src="img/3.png" width = "180" height = "240" alt="" align=center />
+- [@hzzheyang](https://github.com/hzzheyang)
