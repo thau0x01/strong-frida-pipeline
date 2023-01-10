@@ -74,6 +74,7 @@ jobs:
           tag: "${{ needs.check_version.outputs.FRIDA_VERSION }}"
           name: "${{ needs.check_version.outputs.FRIDA_VERSION }}"
           prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   android_build:
     runs-on: ubuntu-20.04
