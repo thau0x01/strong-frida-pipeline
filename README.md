@@ -1,4 +1,4 @@
-# StrongR-Frida Build Pipeline for Android
+# Strong-Frida Build Pipeline for Android
 
 Follow [FRIDA](https://github.com/frida/frida) upstream to automatic patch and build an anti-detection version of frida-server for android.
 
